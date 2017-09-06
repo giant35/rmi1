@@ -7,7 +7,8 @@
     <packaging>pom</packaging>
     <modules>
       <module>rmi1-api</module>
-        <module>rmi1-server</module>
+      <module>rmi1-server</module>
+      <module>rmi1-client</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

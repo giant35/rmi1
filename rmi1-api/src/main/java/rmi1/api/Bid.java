@@ -40,5 +40,10 @@ public class Bid implements java.io.Serializable {
     public void setBid(int bid) {
         this.bid = bid;
     }
-    
+
+    @Override
+    public String toString() {
+        return "Bid{" + "date=" + date + ", price=" + price + ", bid=" + bid + '}';
+    }
+        
 }
